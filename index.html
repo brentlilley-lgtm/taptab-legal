@@ -3,50 +3,187 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TapTab — Legal</title>
-  <meta name="description" content="Privacy policy and terms of service for TapTab — the bill-splitting app where the receipt photo is the interface." />
-  <link rel="stylesheet" href="/style.css" />
+  <title>TapTab — Split the bill, not the vibe</title>
+  <meta name="description" content="TapTab is a mobile app for splitting restaurant bills. Snap the receipt, tap your items, send requests via Venmo, PayPal, Zelle, or Cash App. 50 cents." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@400;500&family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #F8F6F1;
+      color: #2C2825;
+      font-family: 'DM Sans', system-ui, sans-serif;
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 64px 32px 80px;
+      max-width: 520px;
+    }
+
+    /* Logo — rendered as styled text to match the PNG exactly */
+    .logo {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-weight: 400;
+      font-size: 52px;
+      letter-spacing: 0.01em;
+      color: #2C2825;
+      margin-bottom: 36px;
+      user-select: none;
+    }
+
+    .tagline {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 21px;
+      color: #8A837A;
+      line-height: 1.45;
+      min-height: 62px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.5s ease;
+    }
+
+    .divider {
+      width: 40px;
+      height: 1px;
+      background: #E8E3DB;
+      margin: 40px 0;
+    }
+
+    .pitch {
+      font-size: 15px;
+      line-height: 1.75;
+      color: #2C2825;
+      max-width: 380px;
+    }
+
+    .pitch strong {
+      font-weight: 500;
+    }
+
+    .divider-sm {
+      width: 40px;
+      height: 1px;
+      background: #E8E3DB;
+      margin: 32px 0;
+    }
+
+    .contact {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 12px;
+      font-weight: 300;
+      letter-spacing: 0.06em;
+      color: #8A837A;
+    }
+
+    .contact a {
+      color: #4682C3;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      padding: 20px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 11px;
+      font-weight: 400;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    footer a {
+      color: #B5AFA6;
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    footer a:hover {
+      color: #2C2825;
+    }
+
+    @media (max-width: 480px) {
+      .logo { font-size: 42px; margin-bottom: 28px; }
+      .tagline { font-size: 18px; min-height: 52px; }
+      .pitch { font-size: 14px; }
+      .hero { padding: 48px 24px 72px; }
+    }
+  </style>
 </head>
 <body>
-  <main class="container">
-    <nav class="nav">
-      <a href="/" class="active">Home</a>
-      <a href="/privacy">Privacy</a>
-      <a href="/terms">Terms</a>
-    </nav>
 
-    <h1>TapTab Legal</h1>
-    <p class="tagline">Bill splitting where the receipt photo <em>is</em> the interface.</p>
+  <main class="hero">
+    <div class="logo">taptab</div>
 
-    <p>
-      TapTab is a mobile app for splitting restaurant bills. Snap the receipt, tap the items each person ordered,
-      and dispatch payment requests through Venmo, PayPal, Zelle, or Cash App. Money never flows through TapTab.
+    <div class="tagline" id="tagline">Be the hero of the table.</div>
+
+    <div class="divider"></div>
+
+    <p class="pitch">
+      Snap the receipt. Everyone taps what they ordered.
+      TapTab splits it with tax and tip, then sends payment
+      requests through <strong>Venmo</strong>, <strong>PayPal</strong>,
+      <strong>Zelle</strong>, or <strong>Cash App</strong>.
+      <br /><br />
+      No accounts. No subscriptions. <strong>50 cents a split.</strong>
     </p>
 
-    <div class="summary">
-      <h2>The promise, in four lines</h2>
-      <ul>
-        <li><strong>We don't collect or sell your information.</strong> No accounts, no analytics beyond crash reports, no advertising.</li>
-        <li><strong>No subscriptions.</strong> Ever.</li>
-        <li><strong>No hidden fees.</strong> $0.50 per bill split through your phone's app store. That's it.</li>
-        <li><strong>What you're paying for:</strong> splitting one bill and dispatching its payment requests.</li>
-      </ul>
-    </div>
+    <div class="divider-sm"></div>
 
-    <div class="cta-row">
-      <a href="/privacy" class="cta">
-        <h3>Privacy Policy</h3>
-        <p>What data we do and don't handle, where it lives, and your rights.</p>
-      </a>
-      <a href="/terms" class="cta">
-        <h3>Terms of Service</h3>
-        <p>The agreement when you use TapTab. Plain language up front, full text below.</p>
-      </a>
+    <div class="contact">
+      <a href="mailto:HelloTapTab@gmail.com">HelloTapTab@gmail.com</a>
     </div>
-
-    <footer>
-      Last updated April 30, 2026 · Source on <a href="https://github.com/brentlilley-lgtm/taptab-legal">GitHub</a>
-    </footer>
   </main>
+
+  <footer>
+    <a href="/privacy">Privacy</a>
+    <a href="/terms">Terms</a>
+  </footer>
+
+  <script>
+    (function () {
+      var slogans = [
+        'Be the hero of the table.',
+        'Not all heroes wear capes, some use TapTab.',
+        'Split the tab, not the vibe.'
+      ];
+      var i = 0;
+      var el = document.getElementById('tagline');
+      setInterval(function () {
+        el.style.opacity = '0';
+        setTimeout(function () {
+          i = (i + 1) % slogans.length;
+          el.textContent = slogans[i];
+          el.style.opacity = '1';
+        }, 500);
+      }, 4000);
+    })();
+  </script>
+
 </body>
 </html>
