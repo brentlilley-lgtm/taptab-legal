@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@300;400;500&display=swap');
+
+:root {
+  --bg: #F8F6F1;
+  --card: #FFFFFF;
+  --text: #2C2825;
+  --text-muted: #8A837A;
+  --text-light: #B5AFA6;
+  --border: #E8E3DB;
+  --border-light: #F0ECE5;
+  --accent: #4682C3;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 64px 32px 96px;
+}
+
+h1, h2, h3 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 0 0 16px;
+}
+
+h2 {
+  font-size: 28px;
+  margin: 56px 0 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-light);
+}
+
+h3 {
+  font-size: 20px;
+  margin: 32px 0 12px;
+}
+
+p { margin: 0 0 18px; }
+
+a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+
+a:hover { text-decoration-thickness: 2px; }
+
+strong { font-weight: 600; color: var(--text); }
+
+code {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.875em;
+  background: var(--border-light);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+ul { padding-left: 22px; margin: 0 0 18px; }
+li { margin-bottom: 8px; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0;
+  font-size: 14px;
+}
+
+th, td {
+  padding: 10px 14px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-light);
+  vertical-align: top;
+}
+
+th {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  background: var(--border-light);
+}
+
+.meta {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+  margin-bottom: 48px;
+}
+
+.summary {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 28px 32px;
+  margin: 32px 0 48px;
+}
+
+.summary p:last-child { margin-bottom: 0; }
+
+.summary h2:first-child {
+  margin-top: 0;
+  border-top: none;
+  padding-top: 0;
+  font-size: 20px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border-light);
+  margin: 48px 0;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 56px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.nav a:hover, .nav a.active { color: var(--text); }
+
+.tagline {
+  font-family: 'Cormorant Garamond', serif;
+  font-style: italic;
+  font-size: 22px;
+  color: var(--text-muted);
+  margin: 0 0 48px;
+  line-height: 1.4;
+}
+
+.cta-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 48px 0;
+}
+
+.cta {
+  flex: 1;
+  min-width: 240px;
+  padding: 24px 28px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--text);
+  transition: border-color 0.15s, transform 0.15s;
+}
+
+.cta:hover {
+  border-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.cta h3 {
+  margin: 0 0 8px;
+  font-size: 22px;
+}
+
+.cta p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+footer {
+  margin-top: 96px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border-light);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--text-light);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 640px) {
+  .container { padding: 32px 20px 64px; }
+  h1 { font-size: 36px; }
+  h2 { font-size: 24px; }
+  .nav { gap: 16px; flex-wrap: wrap; }
+}

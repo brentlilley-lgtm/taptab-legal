@@ -1,0 +1,24 @@
+---
+title: "Terms of Service"
+description: "How TapTab works and your agreement when using it"
+---
+
+# Terms of Service for TapTab
+
+**Last updated:** April 30, 2026
+**Effective date:** April 30, 2026
+
+These Terms of Service ("**Terms**") govern your use of the TapTab mobile application ("**TapTab**", the "**App**", "**we**", "**us**", or "**our**"). By installing or using TapTab, you agree to these Terms.
+
+---
+
+## Plain-language summary
+
+- **We don't collect or sell your information.** No accounts, no analytics beyond crash reports, no advertising. Period.
+- **No subscriptions.** Ever.
+- **No hidden fees.** TapTab charges **exactly $0.50** through your phone's app store each time you split a bill. That's it.
+- **What you're paying for:** splitting one bill across one or more people and dispatching their payment requests to Venmo, PayPal, Zelle, or Cash App. Money never flows through TapTab.
+
+---
+
+(Full markdown source kept in sync with terms.html. See the rendered HTML for the complete document.)
