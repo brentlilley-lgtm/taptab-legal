@@ -30,17 +30,16 @@
       align-items: center;
       text-align: center;
       padding: 64px 32px 80px;
-      max-width: 520px;
+      max-width: 600px;
     }
 
-    /* Logo — rendered as styled text to match the PNG exactly */
     .logo {
       font-family: 'Cormorant Garamond', Georgia, serif;
       font-weight: 400;
-      font-size: 52px;
+      font-size: 104px;
       letter-spacing: 0.01em;
       color: #2C2825;
-      margin-bottom: 36px;
+      margin-bottom: 40px;
       user-select: none;
     }
 
@@ -48,39 +47,47 @@
       font-family: 'Cormorant Garamond', Georgia, serif;
       font-style: italic;
       font-weight: 400;
-      font-size: 21px;
+      font-size: 22px;
       color: #8A837A;
       line-height: 1.45;
-      min-height: 62px;
+      min-height: 66px;
       display: flex;
       align-items: center;
       justify-content: center;
-      transition: opacity 0.5s ease;
+      transition: opacity 0.8s ease;
     }
 
     .divider {
       width: 40px;
       height: 1px;
       background: #E8E3DB;
-      margin: 40px 0;
+      margin: 44px 0;
     }
 
     .pitch {
-      font-size: 15px;
-      line-height: 1.75;
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.65;
       color: #2C2825;
-      max-width: 380px;
+      max-width: 440px;
     }
 
-    .pitch strong {
-      font-weight: 500;
+    .pitch-secondary {
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 1.7;
+      color: #8A837A;
+      max-width: 420px;
+      margin-top: 20px;
     }
 
     .divider-sm {
       width: 40px;
       height: 1px;
       background: #E8E3DB;
-      margin: 32px 0;
+      margin: 36px 0;
     }
 
     .contact {
@@ -128,9 +135,10 @@
     }
 
     @media (max-width: 480px) {
-      .logo { font-size: 42px; margin-bottom: 28px; }
-      .tagline { font-size: 18px; min-height: 52px; }
-      .pitch { font-size: 14px; }
+      .logo { font-size: 72px; margin-bottom: 32px; }
+      .tagline { font-size: 19px; min-height: 56px; }
+      .pitch { font-size: 18px; }
+      .pitch-secondary { font-size: 15px; }
       .hero { padding: 48px 24px 72px; }
     }
   </style>
@@ -145,12 +153,13 @@
     <div class="divider"></div>
 
     <p class="pitch">
-      Snap the receipt. Everyone taps what they ordered.
-      TapTab splits it with tax and tip, then sends payment
-      requests through <strong>Venmo</strong>, <strong>PayPal</strong>,
-      <strong>Zelle</strong>, or <strong>Cash App</strong>.
-      <br /><br />
-      No accounts. No subscriptions. <strong>50 cents a split.</strong>
+      Snap. Tap. Split.<br />
+      We’ll handle tax, tip, and payment requests.
+    </p>
+
+    <p class="pitch-secondary">
+      No subscriptions. No data collection. No account signup.<br />
+      Just one task made easy.
     </p>
 
     <div class="divider-sm"></div>
@@ -170,7 +179,12 @@
       var slogans = [
         'Be the hero of the table.',
         'Not all heroes wear capes, some use TapTab.',
-        'Split the tab, not the vibe.'
+        'Split the tab, not the vibe.',
+        'Because math after margaritas is a bad idea.',
+        'You brought the card. We\u2019ll sort the rest.',
+        'Dinner with friends, minus the awkward part.',
+        'Fifty cents. Zero drama.',
+        'The receipt whisperer.'
       ];
       var i = 0;
       var el = document.getElementById('tagline');
@@ -180,8 +194,8 @@
           i = (i + 1) % slogans.length;
           el.textContent = slogans[i];
           el.style.opacity = '1';
-        }, 500);
-      }, 4000);
+        }, 700);
+      }, 30000);
     })();
   </script>
 
