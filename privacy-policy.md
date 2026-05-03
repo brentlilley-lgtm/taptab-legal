@@ -200,7 +200,7 @@ A version history of this policy is maintained in the public repository where it
 
 For privacy questions, data deletion requests, or to report a vulnerability:
 
-**Email:** [REPLACE_WITH_YOUR_EMAIL]
+**Email:** HelloTapTab@gmail.com
 **Subject line:** "TapTab Privacy"
 
 We aim to respond within 7 business days.

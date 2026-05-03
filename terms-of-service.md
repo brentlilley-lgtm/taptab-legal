@@ -123,7 +123,7 @@ A version history of these Terms is maintained in the public repository where th
 
 For questions about these Terms:
 
-**Email:** [REPLACE_WITH_YOUR_EMAIL]
+**Email:** HelloTapTab@gmail.com
 **Subject line:** "TapTab Terms"
 
 We aim to respond within 7 business days.
