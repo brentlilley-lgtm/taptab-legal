@@ -1,6 +1,6 @@
-# taptab-legal
+# tabtap-legal
 
-Privacy policy and terms of service for [TapTab](https://github.com/brentlilley-lgtm/taptab) — the bill-splitting app where the receipt photo *is* the interface.
+Privacy policy and terms of service for [TabTap](https://github.com/brentlilley-lgtm/taptab) — the bill-splitting app where the receipt photo *is* the interface.
 
 ## Live site
 
@@ -41,4 +41,4 @@ Pure static HTML + CSS, no build step, no JavaScript. Hosted on Vercel.
 
 ## License
 
-Content (the policies themselves) is provided as-is for use with TapTab. Style and structure may be adapted under the MIT License.
+Content (the policies themselves) is provided as-is for use with TabTap. Style and structure may be adapted under the MIT License.

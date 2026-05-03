@@ -1,4 +1,4 @@
-# TapTab — Google Play Store Listing
+# TabTap — Google Play Store Listing
 
 ---
 
@@ -17,27 +17,27 @@ Snap the receipt. Tap your items. Split the bill. 50 cents. No subscriptions.
 ```
 Splitting a restaurant bill shouldn’t require a math degree, a group chat argument, or that one friend who “forgot their wallet.”
 
-TapTab turns the receipt into the interface. Snap a photo, and everyone at the table taps the items they ordered — right on the receipt. TapTab handles the rest: proportional tax, tip, and payment requests sent straight through Venmo, PayPal, Zelle, or Cash App.
+TabTap turns the receipt into the interface. Snap a photo, and everyone at the table taps the items they ordered — right on the receipt. TabTap handles the rest: proportional tax, tip, and payment requests sent straight through Venmo, PayPal, Zelle, or Cash App.
 
 No spreadsheets. No guessing. No “just split it evenly” when someone only had a salad.
 
 
 HOW IT WORKS
 
-1. Snap — Take a photo of the receipt (or pick one from your library). TapTab reads it instantly using on-device text recognition.
+1. Snap — Take a photo of the receipt (or pick one from your library). TabTap reads it instantly using on-device text recognition.
 
 2. Tap — Each person taps the items they ordered directly on the receipt photo. Colorful brushstrokes show who claimed what — pass the phone around the table.
 
-3. Split — TapTab calculates each person’s share with proportional tax and your chosen tip (15%, 20%, 25%, or custom).
+3. Split — TabTap calculates each person’s share with proportional tax and your chosen tip (15%, 20%, 25%, or custom).
 
 4. Send — Payment requests go out through Venmo, PayPal, Zelle, or Cash App with the amount and a note already filled in. One tap per person.
 
 Done. Everyone knows what they owe. No awkward conversations.
 
 
-WHAT TAPTAB IS NOT
+WHAT TABTAP IS NOT
 
-TapTab is not a payment processor. No money ever flows through our app. We just open your favorite payment app with the right amount prefilled — the transaction happens between you and your friends, through the apps you already trust.
+TabTap is not a payment processor. No money ever flows through our app. We just open your favorite payment app with the right amount prefilled — the transaction happens between you and your friends, through the apps you already trust.
 
 
 PRICING — SIMPLE AND HONEST
@@ -76,7 +76,7 @@ FEATURES
 
 DESIGNED TO FEEL GOOD
 
-TapTab is designed with a warm, premium aesthetic inspired by brands like Aesop and Le Labo. Clean typography, natural colors, and an interface that stays out of your way. Because splitting a bill should feel effortless, not like filing taxes.
+TabTap is designed with a warm, premium aesthetic inspired by brands like Aesop and Le Labo. Clean typography, natural colors, and an interface that stays out of your way. Because splitting a bill should feel effortless, not like filing taxes.
 
 
 WORKS WITH
@@ -86,7 +86,7 @@ WORKS WITH
 • Zelle
 • Cash App
 
-TapTab opens whichever app each person prefers — no lock-in to one payment platform.
+TabTap opens whichever app each person prefers — no lock-in to one payment platform.
 
 
 SUPPORT
@@ -98,15 +98,13 @@ Privacy Policy: https://taptab-legal.vercel.app/privacy
 Terms of Service: https://taptab-legal.vercel.app/terms
 ```
 
-(2,489 characters — well within the 4,000 limit, with room to add app store badges or seasonal copy later)
-
 ---
 
 ## Notes for filling out the Play Console form
 
 | Field | Value |
 |---|---|
-| **App name** | TapTab |
+| **App name** | TabTap |
 | **Short description** | (the 77-char line above) |
 | **Full description** | (the block above) |
 | **Category** | Finance |
